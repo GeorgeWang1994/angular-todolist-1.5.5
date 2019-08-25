@@ -1,0 +1,23 @@
+[
+{
+"todoText":"learn angular",
+"done":true
+},
+{
+"todoText":"build an angular app",
+"done":false
+},
+{
+"todoText":"develop angular application",
+"done":false
+},
+{
+"todoText":"sell application",
+"done":false
+},
+{
+"todoText":"get one million dollars",
+"done":false
+}
+]
+

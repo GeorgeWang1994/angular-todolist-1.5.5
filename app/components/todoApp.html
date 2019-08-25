@@ -1,0 +1,9 @@
+<h2>Todo List</h2>
+<p>
+    <span>{{$ctrl.getRemaining()}} of {{$ctrl.todoList.length}} remaining</span>
+    <button ng-click="$ctrl.remove()">Remove marked</button>
+</p>
+
+<!--这里的todo-list和todo-form都分别使用的是todoList和todoForm的组件-->
+<todo-list ng-repeat="todo in $ctrl.todoList" todo = "todo"></todo-list>
+<todo-form main-add-todo="$ctrl.finalAdd(fieldValue)"></todo-form>
